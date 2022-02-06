@@ -4,7 +4,7 @@ from datetime import datetime, timedelta
 from time import sleep
 
 links = []
-remaining = 10
+remaining = 30
 current_date = datetime.now()
 
 while current_date >= datetime(2020, 9, 23) and remaining >= 0:
